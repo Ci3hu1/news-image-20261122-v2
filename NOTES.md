@@ -27,4 +27,16 @@
   spacing fixed; "GULF OF FINLAND" meta shortened to "FINLAND".
 - 300px preview: masthead + 3 leads clearly readable; small stories
   and ALSO ON read as a clean list, not a smear.
-- Kit check: ok=true failed=[] (bundle step is the parent's job).
+- Kit check (no transcripts yet): ok=false, failed=[transcripts_present]
+  only. All other checks are "submission" status (deferred to the server
+  at submit time, not failures): commit 1e5129e IS pushed to master
+  (verified via git ls-remote), repo created 23 Nov after the competition
+  opened (22 Nov 00:00 UTC), owner Ci3hu1.
+- BUNDLE PENDING (blocker): the transcript bundle needs this build
+  session's usage rows, but muse.db holds 0 rows for session
+  74dfa9a6-eba4-40a9-ac9a-0b6248ad2b63 — usage rows flush only after the
+  turn ends (THINKING_PRICED). Follow-up (next turn): re-run the usage
+  SELECT for this session, write the deduped/sorted JSONL (0600), run
+  the kit bundle (dry-run first) to
+  ~/workspace/tools/makefun/bundles/ni22-v2-bundle.tar.gz, then re-run
+  kit check with --transcripts until ok=true failed=[].
