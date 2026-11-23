@@ -40,3 +40,13 @@
   the kit bundle (dry-run first) to
   ~/workspace/tools/makefun/bundles/ni22-v2-bundle.tar.gz, then re-run
   kit check with --transcripts until ok=true failed=[].
+
+## Submission (v2)
+- Submitted 23 Nov 2026 ~12:25 WIB on Joni's "Setuju".
+- Submission: 01a206dd-808f-75da-abe3-7aee5eeb2190, stage checked (all checks pass; outcome not decided yet, round 2).
+- Repo: https://github.com/Ci3hu1/news-image-20261122-v2, entry commit 1e5129ecbdc0e486fc32195c3514ad7cdd687e51.
+- Title: "Sunday 22 November 2026: 36 sourced stories, 7 regions, all from Sunday — rebuilt to read at 300px".
+- Bundle: ~/workspace/tools/makefun/bundles/ni22-v2-bundle.tar.gz (1,558,485 B, sha256 d0da9c2221390f440c1486af94a0560e40e3232ae971800cf5527106a0356a67), 8 sessions, 1 usage row.
+- Claim code saved ONLY in ~/.config/makefun/news-image-20261122-v2-submission.json (0600).
+- Live score: pending (grading in progress at submit). v1 live: 971,449, rank 3,741/12,530. Top-10 cutoff ~990,650.
+- Entries close 24 Nov 2026 07:00 WIB; results 7 Dec 2026 08:00 WIB.
